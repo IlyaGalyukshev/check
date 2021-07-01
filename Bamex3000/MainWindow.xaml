@@ -12,14 +12,15 @@
         </Grid.RowDefinitions>
         <Button x:Name="btnOpenConstructor" Content="Открыть редактор" HorizontalAlignment="Left" Height="56" Margin="10,71,0,0" VerticalAlignment="Top" Width="180" Click="BtnOpenConstructor_Click" FontSize="18"/>
         <Button x:Name="btnOpenBG" Content="Выбрать фон" HorizontalAlignment="Left" Height="56" Margin="10,10,0,0" VerticalAlignment="Top" Width="180" FontSize="18" Click="BtnOpenBG_Click"/>
-        <Button x:Name="btnOpenDataBase" Content="Выбрать базу имён" HorizontalAlignment="Left" Height="56" Margin="10,132,0,0" VerticalAlignment="Top" Width="180" FontSize="18" Click="BtnOpenDataBase_Click"/>
-        <Button x:Name="btnSave" Content="Готово" HorizontalAlignment="Left" Height="56" Margin="10,193,0,0" VerticalAlignment="Top" Width="180" FontSize="18" Click="BtnSave_Click"/>
+        <Button x:Name="btnOpenDataBase" Content="Выбрать базу имён" HorizontalAlignment="Left" Height="33" Margin="10,132,0,0" VerticalAlignment="Top" Width="180" FontSize="18" Click="BtnOpenDataBase_Click"/>
+        <Button x:Name="btnSave" Content="Готово" HorizontalAlignment="Left" Height="56" Margin="10,210,0,0" VerticalAlignment="Top" Width="180" FontSize="18" Click="BtnSave_Click"/>
         <TextBox x:Name="tbDescription" HorizontalAlignment="Left" Height="413" Margin="495,10,0,-0.2" TextWrapping="Wrap" Text="1. Выберите фоновое изображение&#xD;&#xA;2. Выберите падеж имён&#xD;&#xA;3. Выберите шрифт и размер текста&#xD;&#xA;4. Откройте редактор сертификатов&#xD;&#xA;5. Разместите поле с именем в нужном месте, выделяя область мышью&#xD;&#xA;6. Выберите базу данных с именами и адресами почты&#xD;&#xA;7. Нажмите кнопку &quot;Готово&quot;" VerticalAlignment="Top" Width="300" FontSize="18" IsEnabled="False"/>
         <TextBlock x:Name="tbAdress" HorizontalAlignment="Left" Height="28" Margin="223,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249" FontSize="18"><Run Text="А"/><Run Text="дрес"/></TextBlock>
         <TextBox x:Name="tbPostInfo" HorizontalAlignment="Left" Height="56" Margin="223,10,0,0" TextWrapping="Wrap" Text="Введите данные для рассылки" VerticalAlignment="Top" Width="249" IsEnabled="False" FontSize="18"/>
         <TextBlock x:Name="tbPass" HorizontalAlignment="Left" Height="28" Margin="223,104,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" Width="272" FontSize="18"/>
         <TextBlock x:Name="tbText" HorizontalAlignment="Left" Height="79" Margin="223,170,0,0" TextWrapping="Wrap" Text="Текст" VerticalAlignment="Top" Width="249" FontSize="18"/>
         <TextBlock x:Name="tbHeader" HorizontalAlignment="Left" Height="28" Margin="223,137,0,0" TextWrapping="Wrap" Text="Заголовок рассылки" VerticalAlignment="Top" Width="249" FontSize="18"/>
+        <Button x:Name="CertSettings" Content="Выбрать файл шаблона" HorizontalAlignment="Left" Height="35" Margin="10,170,0,0" VerticalAlignment="Top" Width="180" FontSize="18" Click="CertSettings_Click" />
 
 
     </Grid>

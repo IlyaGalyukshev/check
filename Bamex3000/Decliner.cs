@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WpfApp4
+namespace Bamex3000
 {
     public class Decliner
     {
